@@ -9,6 +9,9 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      roboto: ['"Roboto", sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -21,8 +24,13 @@ module.exports = {
         //mydefiend
         primaryBg: "#e04c2c",
         jobsBorder: "#e88b76",
-        darkgreenBg: "#249362",
-        lightgreenBg: "#acecc4",
+        darkgreenBg: "#067647",
+        openBtnBorder: "#abefc6",
+        zinc700: "#3f3f46",
+        slate500: "#334155",
+        slate200: "#fcfcfc",
+        lightgreenBg: "#ecfdf3",
+        deleteBg: "#fef4f2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

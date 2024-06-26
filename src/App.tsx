@@ -1,6 +1,6 @@
 import "./App.css";
+import Hero from "./components/hero";
 import Navbar from "./components/navbar";
-import TabsComp from "./components/tabs";
 import { Separator } from "./components/ui/separator";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="overflow-x-hidden">
       <Navbar />
       <Separator className="w-full" />
-      <TabsComp />
+      <Hero />
     </div>
   );
 }
