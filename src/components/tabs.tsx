@@ -7,7 +7,7 @@ export default function TabsComp() {
   return (
     <div>
       <Tabs defaultValue="Job">
-        <TabsList className="xsm:flex xsm:justify-start xsm:whitespace-nowrap md:py-8 md:px-12 xsm:overflow-x-scroll md:overflow-x-hidden">
+        <TabsList className="xsm:flex xsm:justify-start xsm:whitespace-nowrap md:py-8 md:px-12 xsm:overflow-x-scroll xsm:overflow-y-hidden md:overflow-x-hidden">
           <TabsTrigger value="Job" className="md:text-lg ">
             Job Preview
           </TabsTrigger>
