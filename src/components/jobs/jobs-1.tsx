@@ -8,14 +8,14 @@ import { Separator } from "../ui/separator";
 export default function Jobs1Comp() {
   return (
     <div>
-      <div className="px-24">
+      <div className="xsm:px-4 xl:px-24 py-6">
         {/* First Part  */}
-        <div className="flex gap-4 text-sm items-start">
+        <div className="md:flex gap-4 text-sm md:items-start">
           <Title
             text="Senior Product Designer"
-            className="text-3xl font-bold text-zinc700 font-roboto tracking-wide"
+            className="xsm:text-2xl lg:text-3xl font-bold text-zinc700 font-roboto tracking-wide"
           />
-          <div className="flex gap-4 ">
+          <div className="xsm:mt-4 md:mt-0 flex gap-4 ">
             <Title text="posted 2 days ago" className="text-gray-300" />
             <Button
               text="Open"
@@ -28,10 +28,10 @@ export default function Jobs1Comp() {
 
         {/* Second Part  */}
 
-        <div className="mt-8 flex gap-12">
+        <div className="mt-8 md:flex gap-12">
           <Button
             text="Delaware , USA"
-            className="flex gap-2 text-gray-500 text-lg font-roboto"
+            className="flex gap-2 text-gray-500 text-lg font-roboto xsm:mb-4 xl:mb-0"
             icon={LocationIcon}
             iconClassName="size-6"
           />
@@ -44,7 +44,7 @@ export default function Jobs1Comp() {
           />
         </div>
       </div>
-      <Separator className="mt-8 w-full" />
+      <Separator className="mt-4 w-full" />
     </div>
   );
 }

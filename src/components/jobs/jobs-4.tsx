@@ -6,7 +6,7 @@ import Title from "../ui/title";
 export default function Jobs4Comp() {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-8 px-24 py-12 w-11/12">
+      <div className="grid grid-cols-2 gap-8 xsm:px-4 xl:px-24 py-12 xsm:w-full md:w-11/12">
         <Button
           text="Atlassian"
           icon={AtlassianIcon}

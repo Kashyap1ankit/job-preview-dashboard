@@ -4,7 +4,7 @@ import Title from "../ui/title";
 export default function Jobs3Comp() {
   return (
     <div>
-      <div className="px-24 py-12">
+      <div className="xsm:px-4 xl:px-24 py-12">
         <ul className="text-slate500 mt-4 font-roboto list-decimal">
           <Title text="About the job" className="text-gray-500 font-roboto" />
           <li className="ml-4">Handle the UI/UX research desging</li>

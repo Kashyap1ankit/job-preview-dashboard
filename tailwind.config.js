@@ -9,6 +9,13 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      xsm: "300px",
+      sm: "400px",
+      md: "520px",
+      lg: "800px",
+      xl: "1020px",
+    },
     fontFamily: {
       roboto: ['"Roboto", sans-serif'],
     },

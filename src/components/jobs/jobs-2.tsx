@@ -8,7 +8,7 @@ import Title from "../ui/title";
 export default function Jobs2Comp() {
   return (
     <div>
-      <div className="py-12 px-24 grid grid-cols-4 ">
+      <div className="py-12 xsm:px-4 xl:px-24 grid xsm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 xsm:gap-4 xl:gap-0">
         <StackComp text="Skills Required" className="font-roboto text-gray-500">
           <div className="mt-4">
             <Button
